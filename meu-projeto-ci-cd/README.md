@@ -40,3 +40,5 @@ git add README.md
 git commit -m "Teste CI/CD"
 git push origin main
 
+echo "Teste CI/CD" >> README.md
+
