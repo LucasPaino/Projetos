@@ -45,6 +45,7 @@ jobs:
 
       - name: Instalar dependências
         run: npm ci
+        working-directory: ./meu-projeto-ci-cd
 
       - name: Build
         run: npm run build
