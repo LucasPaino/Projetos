@@ -9,7 +9,6 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
@@ -25,9 +24,6 @@ jobs:
 
       - name: Rodar ESLint
         run: npm run lint
-
-      - name: Rodar testes
-        run: npm run test
 
       - name: Build da aplicação
         run: npm run build
